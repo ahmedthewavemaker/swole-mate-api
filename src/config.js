@@ -1,6 +1,7 @@
 module.exports = {
-    PORT: process.env.PORT || 3000,
+    PORT: process.env.PORT || 8000,
     NODE_ENV: process.env.NODE_ENV || 'development',
     CLIENT_ORIGIN: 'https://swole-mate-app.vercel.app/',
-    API_BASE_URL: ''
+    DATABASE_URL:'postgresql://dunder_mifflin@localhost/swole-mate',
+    TEST_DATABASE_URL:'postgresql://dunder_mifflin@localhost/swole-mate-test',
   }
